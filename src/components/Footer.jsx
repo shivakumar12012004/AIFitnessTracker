@@ -10,14 +10,3 @@ const Footer = () => {
 
 export default Footer;
 
-/*import React from 'react';
-
-const Footer = () => {
-  return (
-    <footer>
-      Sit-up Counter | Privacy: Your camera feed is processed locally and never leaves your device
-    </footer>
-  );
-};
-
-export default Footer;*/

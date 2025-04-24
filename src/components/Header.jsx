@@ -41,16 +41,3 @@ const Header = ({ selectedExercise, setSelectedExercise, darkMode, toggleDarkMod
 
 export default Header;
 
-
-/*import React from 'react';
-
-const Header = () => {
-  return (
-    <header>
-      <h1>Sit-up Counter</h1>
-      <p>Real-time sit-up detection and counting with your webcam</p>
-    </header>
-  );
-};
-
-export default Header;*/
