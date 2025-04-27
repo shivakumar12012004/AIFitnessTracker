@@ -1,0 +1,87 @@
+/* Exercise Selector Styles */
+.exercise-control-panel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  background-color: #f0f2f5;
+  border-radius: 8px;
+}
+
+.exercise-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.exercise-dropdown {
+  padding: 8px 12px;
+  border: 2px solid #4361ee;
+  border-radius: 6px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 500;
+  color: #3a0ca3;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.exercise-dropdown:hover, .exercise-dropdown:focus {
+  border-color: #3a0ca3;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(67, 97, 238, 0.3);
+}
+
+.exercise-selector label {
+  font-weight: 600;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Exercise Trainer Container */
+.exercise-trainer-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Stats Display Customizations */
+.stats-container {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #4361ee;
+}
+
+/* Quality indicators */
+.quality-indicator {
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.quality-excellent {
+  background-color: rgba(0, 204, 0, 0.2);
+  color: #008800;
+  border-left: 4px solid #00cc00;
+}
+
+.quality-good {
+  background-color: rgba(102, 204, 0, 0.2);
+  color: #447700;
+  border-left: 4px solid #66cc00;
+}
+
+.quality-fair {
+  background-color: rgba(255, 153, 0, 0.2);
+  color: #cc7700;
+  border-left: 4px solid #ff9900;
+}
+
+.quality-poor {
+  background-color: rgba(255, 0, 0, 0.2);
+  color: #cc0000;
+  border-left: 4px solid #ff0000;
+}

@@ -1,35 +1,23 @@
-// src/App.js
-import React, { useState } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import ExerciseAnalyzer from './components/ExerciseAnalyzer';
+import React from 'react';
+import './styles/App.css';
+import ExerciseTrainer from './Components/ExerciseTrainer';
 
-function App() {
-  const [showExerciseAnalyzer, setShowExerciseAnalyzer] = useState(false);
-
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Fitness Form Analyzer</h1>
-        <p>
-          Analyze your push-ups and squats with AI-powered form detection
-        </p>
-        <button 
-          className="App-link" 
-          onClick={() => setShowExerciseAnalyzer(!showExerciseAnalyzer)}
-        >
-          {showExerciseAnalyzer ? 'Hide Exercise Analyzer' : 'Start Exercise Analysis'}
-        </button>
+    <div className="app-container">
+      <header className="app-header">
+        <h1>Exercise Analysis Trainer</h1>
+        <p>Perfect your form with real-time AI-powered analysis</p>
       </header>
-      
-      {showExerciseAnalyzer && (
-        <div className="analyzer-container">
-          <ExerciseAnalyzer />
-        </div>
-      )}
+
+      <ExerciseTrainer />
+
+      <footer className="app-footer">
+        <p>Exercise Analysis Trainer &copy; {new Date().getFullYear()} | Powered by MediaPipe Pose Detection</p>
+        <p>Get real-time feedback on your exercise form and track your progress</p>
+      </footer>
     </div>
   );
-}
+};
 
 export default App;
