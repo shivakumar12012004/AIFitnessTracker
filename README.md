@@ -8,7 +8,6 @@ It helps users improve form during exercises like **push-ups** and **squats** by
 - Real-time pose detection via webcam
 - Live visual feedback on body movements
 - Exercise selection (Push-Ups, Squats)
-- 3D visualization with Three.js (if extended)
 - Clean and modular folder structure
 - Responsive web design
 
@@ -60,8 +59,7 @@ Open your browser at [http://localhost:3000](http://localhost:3000)
 | Module        | Purpose                                         |
 | ------------- | ------------------------------------------------ |
 | React.js       | Frontend UI development                        |
-| MediaPipe Pose | Real-time human pose detection                 |
-| Three.js (planned) | 3D model rendering (future extension)        |
+| MediaPipe Pose | Real-time human pose detection                 |      
 | CSS            | Styling and responsiveness                    |
 
 ---
